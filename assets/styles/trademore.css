@@ -9,7 +9,12 @@
 }
 
 #headerwrap .col-lg-9 {
+    padding: 0;
 	margin-top: 10px;
+}
+
+#headerwrap .col-lg-3 {
+    margin-top: 10px;
 }
 
 .col-centered{
