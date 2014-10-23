@@ -27,10 +27,11 @@
 	margin: 0 auto;
 }
 
-#team-email {
-	font-size: 14px;
+/*
+.collapsed {
+    background-color: #6783A3;
 }
-
+*/
 #first-scroll {
 	margin-top: 40px;
 }
@@ -87,8 +88,8 @@
 }
 
 .team-pic {
-	height: 250px;
-	width: 250px;
+    width: 250px;
+    margin: 0 auto;
 	border: 5px solid #003571;
     border-radius: 150px;
     padding: 10px;
