@@ -144,18 +144,6 @@
     -moz-animation-timing-function: linear;
 }
 
-
-
-@media screen and (max-width: 400px) {
-   #one { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
-  }
-}
-
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
 #mc_embed_signup {background:#003571; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; }
 #mc_embed_signup form {display:block; position:relative; padding: 0px} /* text-align:left */
