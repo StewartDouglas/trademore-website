@@ -1,6 +1,14 @@
+#navbar-top {
+    margin-right: 10px;
+}
+
 #headerwrap {
 	margin-top: 50px;
 	padding-top: 70px;
+    background: -webkit-linear-gradient(#003571, #003571, #0156B5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#003571, #003571, #0156B5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#003571, #003571, #0156B5); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(#003571,#003571,#0156B5);
 }
 
 #headerwrap .row .col-lg-12 h1 {
@@ -27,11 +35,6 @@
 	margin: 0 auto;
 }
 
-/*
-.collapsed {
-    background-color: #6783A3;
-}
-*/
 #first-scroll {
 	margin-top: 40px;
 }
@@ -40,8 +43,15 @@
 	color: #FFFFFF;
 }
 
+.navbar-fixed-top {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .navbar-static-bottom {
 	background-color: #6783A3;
+    color: #FFFFFF;
+    font-size: 12px;
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
@@ -146,7 +156,7 @@
 }
 
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
-#mc_embed_signup {background:#003571; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; }
+#mc_embed_signup { background: transparent; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; } /* background:#003571; */
 #mc_embed_signup form {display:block; position:relative; padding: 0px} /* text-align:left */
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
 #mc_embed_signup input {border:1px solid #999; -webkit-appearance:none; font-size: 1.4em;}
