@@ -5602,6 +5602,7 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-body {
   padding: 15px;
+  color: #000000;
 }
 
 .panel-body:before,
