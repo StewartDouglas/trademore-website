@@ -30,10 +30,29 @@
     color: white;
 }
 
-#btc {
-    width: 130px;
-    height: 130px;
+/* -- Bitcoin images -- */
+
+.bitcoin {
+    width: 18px;
+    height: 18px;
+    position: relative;
 }
+
+#bitcoin1 {
+    left: -5px;
+    top: -5px;
+}
+
+#bitcoin2 {
+    left: -2px;
+}
+
+#bitcoin3 {
+    left: -10px;
+    top: 20px;
+}
+
+/* -- /Bitcoin images -- */
 
 .col-centered{
 	float: none;
@@ -69,7 +88,14 @@
 .feature {
 	text-align: left;
 	font-size: 20px;
+    vertical-align: middle;
+display: inline-block;
 }
+
+.feature span {
+    vertical-align: middle;
+}
+
 
 #platform {
 	background-color: #6783A3;
