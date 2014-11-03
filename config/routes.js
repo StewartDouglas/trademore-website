@@ -38,6 +38,14 @@ module.exports.routes = {
 
   '/faq': {
     view: 'faq'
+  },
+
+  '/830124':{
+    view: 'newBorrower'
+  },
+
+  '/119823':{
+    view: 'newLender'
   }
 
 
