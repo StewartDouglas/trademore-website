@@ -236,6 +236,11 @@
     margin: 0 auto; 
 }
 
+.blog .col-lg-12 img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 768px){
 
     .blog .col-lg-12 {
