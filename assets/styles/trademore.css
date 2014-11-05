@@ -88,8 +88,6 @@
 .feature {
 	text-align: left;
 	font-size: 20px;
-    vertical-align: middle;
-display: inline-block;
 }
 
 .feature span {
@@ -130,7 +128,7 @@ display: inline-block;
 
 .team-pic {
     width: 250px;
-    margin: 0 auto;
+    margin: 0 auto; 
 	border: 5px solid #003571;
     border-radius: 150px;
     padding: 10px;
@@ -186,18 +184,11 @@ display: inline-block;
     -moz-animation-timing-function: linear;
 }
 
+/* --- FAQ ------- */
 
 #accordion {
     margin-right: 20px;
 }
-
-/*
-@media (max-width: 768px) {
-    .faq .col-md-2 .faq-heading {
-        margin-right: 20px;
-    }
-}
-*/
 
 .faq {
     margin-top: 80px;
@@ -217,6 +208,114 @@ display: inline-block;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
+/* --------------- */
+
+/* ----- Blog ---- */
+
+.blog-image {
+    margin-top: -125px;
+}
+
+.blog .container {
+    background-color: #FFFFFF;
+    border: 3px solid #003571;
+    margin: 100px 80px;
+    padding-top: 50px;
+}
+
+.blog .blog-pic {
+    margin-top: -125px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #003571;
+    border-radius: 150px;
+    padding: 3px;   
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 768px){
+
+    .blog .col-lg-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog .container {
+        margin: 100px 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    .blog .col-lg-12 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog .container {
+        margin: 100px 30px;
+    }
+
+}
+
+@media screen and (min-width: 970px){
+
+    .blog .col-lg-12 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .blog .container {
+        margin: 100px 60px;
+    }
+}
+
+@media screen and (min-width: 1170px){
+
+    .blog .col-lg-12 {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .blog .container {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.blog h3 {
+    color: #000000;
+}
+
+.blog p {
+    text-align: left;
+    color: #000000;
+}
+
+.blog i {
+    margin: 0px;
+    color: #000000;
+}
+
+.blog ul {
+    text-align: left;
+    color: #000000;
+}
+
+.blog-name-date {
+    margin-bottom: 50px;
+}
+
+/* --------------- */
+
+
+
 
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
 #mc_embed_signup { background: transparent; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; } /* background:#003571; */
