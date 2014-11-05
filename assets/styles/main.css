@@ -80,6 +80,7 @@ a:after {
 }
 
 .navbar-default {
+    border-radius: 0px;
 	background-color: #003571;
     border-color: transparent;
 }
