@@ -217,10 +217,13 @@
     margin-top: -125px;
 }
 
-.blog .container {
+.blog {
     background-color: #FFFFFF;
     border: 3px solid #003571;
-    margin: 100px 80px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
     padding-top: 50px;
 }
 
@@ -248,8 +251,9 @@
         padding-right: 10px;
     }
 
-    .blog .container {
-        margin: 100px 10px;
+    .blog{
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
 }
@@ -261,8 +265,9 @@
         padding-right: 30px;
     }
 
-    .blog .container {
-        margin: 100px 30px;
+    .blog {
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
 }
@@ -274,20 +279,20 @@
         padding-right: 50px;
     }
 
-    .blog .container {
-        margin: 100px 60px;
+    .blog {
+        margin-right: 60px;
+        margin-left: 60px;
     }
 }
 
 @media screen and (min-width: 1170px){
 
     .blog .col-lg-12 {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 90px;
+        padding-right: 90px;
     }
 
-    .blog .container {
-        margin-top: 100px;
+    .blog {
         margin-left: auto;
         margin-right: auto;
     }
