@@ -184,6 +184,11 @@
     -moz-animation-timing-function: linear;
 }
 
+.bottom-buffer {
+    margin-bottom: 50px;
+}
+
+
 /* --- FAQ ------- */
 
 #accordion {
@@ -252,22 +257,12 @@
     }
 
     .blog{
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
-}
-
-@media screen and (min-width: 768px){
-
-    .blog .col-lg-12 {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .blog {
-        margin-right: 30px;
-        margin-left: 30px;
+    .email-signup {
+        padding: 0px;
     }
 
 }
@@ -280,10 +275,25 @@
     }
 
     .blog {
-        margin-right: 60px;
-        margin-left: 60px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
+@media screen and (min-width: 1024px){
+
+    .blog .col-lg-12 {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .blog {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 
 @media screen and (min-width: 1170px){
 
