@@ -9,8 +9,7 @@ $(function() {
     });
 });
 
-$(document).ready(function(){
-	if(document.URL == 'http://whatplant.github.io/?submitted=true'){
-		$('#form_submitted').finish().fadeIn("fast").delay(4000).fadeOut("slow");
-	};
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
 });
