@@ -267,6 +267,20 @@
 
 }
 
+@media screen and (min-width: 769px){
+
+    .blog .col-lg-12 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .blog{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
 @media screen and (min-width: 970px){
 
     .blog .col-lg-12 {

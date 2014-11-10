@@ -48,6 +48,10 @@ module.exports.routes = {
     view: 'blog/20141105'
   },
 
+  '/confirmation': {
+    view: 'confirmation'
+  },
+
   '/830124':{
     view: 'newBorrower'
   },
