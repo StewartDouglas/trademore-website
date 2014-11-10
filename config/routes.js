@@ -52,6 +52,10 @@ module.exports.routes = {
     view: 'confirmation'
   },
 
+  '/ThankYou': {
+    view: 'thankyou'
+  },
+
   '/830124':{
     view: 'newBorrower'
   },
