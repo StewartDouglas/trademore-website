@@ -3,12 +3,16 @@
 }
 
 #headerwrap {
+    background: url(../images/background.jpg) no-repeat center top;     
 	margin-top: 50px;
 	padding-top: 70px;
-    background: -webkit-linear-gradient(#003571, #003571, #0156B5); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#003571, #003571, #0156B5); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#003571, #003571, #0156B5); /* For Firefox 3.6 to 15 */
-    background-image: linear-gradient(#003571,#003571,#0156B5);
+    background-size: 100% 100%;
+    /* Older gradient design*/
+    /*background-size: 100% auto;
+    /*background: -webkit-linear-gradient(#003571, #003571, #0156B5);*/   /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#003571, #003571, #0156B5);     */  /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#003571, #003571, #0156B5);   */  /* For Firefox 3.6 to 15 */
+    /*background-image: linear-gradient(#003571,#003571,#0156B5);    */
 }
 
 #headerwrap .row .col-lg-12 h1 {
