@@ -395,51 +395,51 @@
 
 
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
-#mc_embed_signup { background: transparent; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; } /* background:#003571; */
-#mc_embed_signup form {display:block; position:relative; padding: 0px} /* text-align:left */
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none; font-size: 1.4em;}
-#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
-#mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:22px; font-weight: 500; height: 45px; line-height: 45px; margin: 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-#mc_embed_signup .button:hover {background-color:#777;}
-#mc_embed_signup .small-meta {font-size: 11px;}
-#mc_embed_signup .nowrap {white-space:nowrap;}
+#tm_main_form { background: transparent; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; } /* background:#003571; */
+#tm_main_form form {display:block; position:relative; padding: 0px} /* text-align:left */
+#tm_main_form h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#tm_main_form input {border:1px solid #999; -webkit-appearance:none; font-size: 1.4em;}
+#tm_main_form input[type=checkbox]{-webkit-appearance:checkbox;}
+#tm_main_form input[type=radio]{-webkit-appearance:radio;}
+#tm_main_form input:focus {border-color:#333;}
+#tm_main_form .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:22px; font-weight: 500; height: 45px; line-height: 45px; margin: 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#tm_main_form .button:hover {background-color:#777;}
+#tm_main_form .small-meta {font-size: 11px;}
+#tm_main_form .nowrap {white-space:nowrap;}
 
-#mc_embed_signup .mc-field-group {width:100%; padding-bottom: 0px; min-height:50px; } /* clear:left; position:relative; */
-#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
-* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
-#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
-#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:5%; -moz-border-radius:6px; /* Firefox */
+#tm_main_form .mc-field-group {width:100%; padding-bottom: 0px; min-height:50px; } /* clear:left; position:relative; */
+#tm_main_form .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #tm_main_form .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#tm_main_form .mc-field-group label {display:block; margin-bottom:3px;}
+#tm_main_form .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:5%; -moz-border-radius:6px; /* Firefox */
 -webkit-border-radius: 6px; /* Safari, Chrome */}
-#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
-#mc_embed_signup #mce-EMAIL { float: left; margin: 0;}
-#mc_embed_signup .col-md-3 { padding: 0;}
-#mc_embed_signup .col-md-9 { padding: 0;}
+#tm_main_form .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+#tm_main_form #mce-EMAIL { float: left; margin: 0;}
+#tm_main_form .col-md-3 { padding: 0;}
+#tm_main_form .col-md-9 { padding: 0;}
 
-#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
-#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
-#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
-#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
-#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+#tm_main_form .datefield, #tm_main_form .phonefield-us{padding:5px 0;}
+#tm_main_form .datefield input, #tm_main_form .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#tm_main_form .phonefield-us .phonearea input, #tm_main_form .phonefield-us .phonedetail1 input{width:40px;}
+#tm_main_form .datefield .monthfield input, #tm_main_form .datefield .dayfield input{width:30px;}
+#tm_main_form .datefield label, #tm_main_form .phonefield-us label{display:none;}
 
-#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
-#mc_embed_signup .asterisk {color:#c60; font-size:200%;}
-#mc_embed_signup .mc-field-group .asterisk {position:absolute; top:25px; right:10px;}        
-#mc_embed_signup .clear {clear:both;}
+#tm_main_form .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#tm_main_form .asterisk {color:#c60; font-size:200%;}
+#tm_main_form .mc-field-group .asterisk {position:absolute; top:25px; right:10px;}        
+#tm_main_form .clear {clear:both;}
 
-#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
-#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
-#mc_embed_signup .mc-field-group.input-group label {display:inline;}
-#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+#tm_main_form .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#tm_main_form .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#tm_main_form .mc-field-group.input-group label {display:inline;}
+#tm_main_form .mc-field-group.input-group input {display:inline; width:auto; border:none;}
 
-#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
-#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-#mc_embed_signup #mce-error-response {display:none;}
-#mc_embed_signup #mce-success-response {color:#529214; display:none;}
-#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+#tm_main_form div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#tm_main_form div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#tm_main_form #mce-error-response {display:none;}
+#tm_main_form #mce-success-response {color:#529214; display:none;}
+#tm_main_form label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
 
 #mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
-#mc_embed_signup #num-subscribers {font-size:1.1em;}
-#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+#tm_main_form #num-subscribers {font-size:1.1em;}
+#tm_main_form #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}

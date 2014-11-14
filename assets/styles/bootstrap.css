@@ -4516,6 +4516,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding-top: 4px;
+  padding-right:0px;
+  padding-left:0px;
   /* padding: 9px 10px; */
   margin-top: 8px;
   margin-right: 15px;
@@ -4529,7 +4531,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
-  height: 2px;
+  height: 3px; /* Update from 2px */
   border-radius: 1px;
 }
 
