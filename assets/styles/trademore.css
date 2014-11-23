@@ -3,11 +3,13 @@
 }
 
 #headerwrap {
-    background: url(../images/background.jpg) no-repeat center top;     
+    background: url(../images/background.jpg) no-repeat center top;
 	margin-top: 50px;
 	padding-top: 70px;
     background-size: 100% 100%;
     background-color: #003571;
+    background-attachment: fixed;
+    background-position: fixed;
     /* Older gradient design*/
     /*background-size: 100% auto;
     /*background: -webkit-linear-gradient(#003571, #003571, #0156B5);*/   /* For Safari 5.1 to 6.0 */
