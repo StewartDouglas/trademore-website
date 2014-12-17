@@ -2,6 +2,10 @@
     margin-right: 10px;
 }
 
+.navbar-nav > li {
+    margin: 0 5px;
+}
+
 #headerwrap {
     background: url(../images/background.jpg) no-repeat center top;
 	margin-top: 50px;
@@ -396,6 +400,15 @@
 
 /* --------------- */
 
+/* ---- Blog ----- */
+
+.login {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+
+/* --------------- */
 
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
 #tm_main_form { background: transparent; width: 40%; font:14px; Lato: sans-serif; padding: 0px; float: none; margin: 0 auto; } /* background:#003571; */
