@@ -40,6 +40,10 @@ module.exports.routes = {
     view: 'faq'
   },
 
+  '/users/login': {
+    view: 'users/login'
+  },
+
   '/blog': {
     view: 'blog/20141105'
   },
