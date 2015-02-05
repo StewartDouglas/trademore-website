@@ -1,3 +1,3 @@
-# foo
+# TradeMore
 
-a [Sails](http://sailsjs.org) application
+TradeMore's website, written in [Sails.js](http://sailsjs.org)
